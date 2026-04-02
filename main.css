@@ -31,7 +31,7 @@ grid-template-areas:
 
 #history {
 grid-area: h;
-background-color: rgb(164, 74, 38);
+background-color: rgb(186, 71, 25);
 }
 
 #variations{
@@ -50,7 +50,7 @@ footer{
 
 /* font styling area */
 h2{
-    color: rgb(7, 67, 70);
+    color: rgb(10, 86, 90);
     font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
 }
 
@@ -69,25 +69,25 @@ h3{
     }
 }
 /* animations for the variations section */
-.weight{
-    animation: weightVariations 5s infinite;
-}
-@keyframes weightVariations {
-    0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
-    }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
-    }
-}
-/* where the animation is for the width change */
 .width{
     animation: widthVariations 5s infinite;
 }
 @keyframes widthVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "opsz" 16, "wdth" 25, "slnt" 0;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    50%{font-variation-settings: "opsz" 16, "wdth" 150, "slnt" 0;
+    }
+}
+/* where the animation is for the width change */
+.slant{
+    animation: slantVariations 5s infinite;
+}
+@keyframes slantVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 16, "wdth" 150, "slnt" -15;
+    }
+    50%{font-variation-settings: "opsz" 16, "wdth" 150, "slnt" 15;
     }
 }
 
