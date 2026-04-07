@@ -7,7 +7,7 @@
     }
     
     body{
-    background-color: rgb(48, 106, 109);
+    background-color: #003049;
     font-family: 'Nickel Gothic Variable', sans-serif;
 }
 /* how the page wrapper will appear on mobile */
@@ -25,17 +25,18 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "v h"
+    "h v"
     "a a";
 }
 
 #history {
 grid-area: h;
-background-color: rgb(186, 71, 25);
+background-color: #f77f00;
 }
 
 #variations{
 grid-area: v;
+background-color: #eae2b7;
 }
 
 #alphabet {
@@ -44,13 +45,13 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: rgb(111, 163, 161);
+    background-color: #f77f00;
     height:200px;
 }
 
 /* font styling area */
 h2{
-    color: rgb(10, 86, 90);
+    color: #EA5E00;
     font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
 }
 
@@ -59,6 +60,7 @@ h3{
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
+    color: #f77f00;
 }
 /* full range of animation */
 @keyframes weightChange {
@@ -93,7 +95,7 @@ h3{
 
 h5{
     font-size:40px;
-    color:rgb(235, 212, 199);
+    color:#f77f00;
     margin:15px;
 }
 
