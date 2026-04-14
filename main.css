@@ -7,7 +7,7 @@
     }
     
     body{
-    background-color: #003049;
+    background-color: #C84F34;
     font-family: 'Nickel Gothic Variable', sans-serif;
 }
 /* how the page wrapper will appear on mobile */
@@ -25,42 +25,76 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h v"
-    "a a";
+    ". . . . ."
+    ". . . . ."
+    "h h h v v"
+    ". . . . ."
+    ". . a . ."
+    ". . . . .";
 }
 
 #history {
 grid-area: h;
-background-color: #f77f00;
+background-color: #F8DCBC;
+padding: 10px;
 }
+
+
 
 #variations{
 grid-area: v;
-background-color: #eae2b7;
+background-color: #F8DCBC;
 }
 
 #alphabet {
 grid-area: a;
 }
 }
+.bubble-header{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-left:10px;
+    padding: 0.5em 1em;
+    background-color: #f8a20d;
+    color: #9A2D18;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.hero{
+    background-image: url("assets/font-hero.svg");
+    /* height: 500px; */
+    min-height: 500px;
+    width:1200px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
 /* CSS for the footer */
 footer{
-    background-color: #f77f00;
+    background-color: #F8DCBC;
     height:200px;
 }
 
 /* font styling area */
 h2{
-    color: #EA5E00;
+    color: #F8DCBC;
     font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
 }
 
 h3{
     font-weight:20; 
     text-align: center;
-    font-size: 5em;
+    font-size: 3em;
     animation: weightChange 7s infinite;
-    color: #f77f00;
+    color: #9A2D18;
+    padding-top: 150px;
+  
+}
+p{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 }
 /* full range of animation */
 @keyframes weightChange {
@@ -95,7 +129,7 @@ h3{
 
 h5{
     font-size:40px;
-    color:#f77f00;
+    color:#9A2D18;
     margin:15px;
 }
 
