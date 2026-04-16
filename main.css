@@ -57,8 +57,8 @@ grid-area: a;
     margin-top:10px;
     margin-left:10px;
     padding: 0.5em 1em;
-    background-color: #f8a20d;
-    color: #9A2D18;
+    background-color: #9A2D18;
+    color: #F8DCBC;
     border-radius: 1em;
     margin-bottom: 1em;
 }
@@ -93,9 +93,22 @@ h3{
   
 }
 p{
-    font-family: "Inter", sans-serif;
+    color: #9A2D18;
+    font-size: 1.2em;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+
 }
+
+footer{
+    color: #9A2D18;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 80px;
+}
+
 /* full range of animation */
 @keyframes weightChange {
     0%, 100%{
